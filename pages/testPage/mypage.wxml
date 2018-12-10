@@ -1,0 +1,7 @@
+<!--pages/testPage/mypage.wxml-->
+<text>这是测试页面</text>
+<map></map>
+<button bindtap='sys'>微信扫一扫</button>
+扫码结果：<text class="result">{{result}}</text>
+<button bindtap='wbdy'>调用接口</button>
+<!--http://47.107.133.5/PersonWebsites/articles/queryArticlesById.do?articlesId=20-->
